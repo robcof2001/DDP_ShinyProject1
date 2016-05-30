@@ -1,0 +1,27 @@
+---
+title: "Predict Your Vehicle's MPG"
+author: "Roberto Ortiz"
+date: "Sunday, May 29, 2016"
+output: html_document
+--- 
+Files ui.R and server.R are in https://github.com/robcof2001/DDP_ShinyProject1
+
+This Shiny App is for predicting your vehicle's MPG (Miles Per Gallon).
+
+This dataset was taken from the StatLib library which is maintained at Carnegie Mellon University. The dataset was used in the 1983 American Statistical Association Exposition. (https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/)
+
+Number of Instances: 392
+
+The complete structure of this dataset is:
+
+1. mpg:           continuous (numeric)
+2. cylinders:     multi-valued discrete (integer)
+3. displacement:  continuous (numeric)
+4. horsepower:    continuous (integer)
+5. weight:        continuous (integer)
+6. acceleration:  continuous (numeric)
+7. model year:    multi-valued discrete (integer)
+8. origin:        multi-valued discrete (integer)
+9. car name:      string (unique for each instance) (factor)
+
+
